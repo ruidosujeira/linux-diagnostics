@@ -3,6 +3,7 @@
 ![Status](https://img.shields.io/badge/status-experimental-orange)
 ![Shell](https://img.shields.io/badge/shell-bash-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Runs on](https://img.shields.io/badge/runs%20on-debian%20%C2%B7%20arch%20%C2%B7%20rpm-blueviolet)
 
 > Diagnósticos rápidos (e opcionais) para as dores mais comuns logo depois de instalar uma distro Linux.
 

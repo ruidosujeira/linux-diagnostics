@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LINUX_SOS_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+export LINUX_SOS_ROOT
+
+# shellcheck disable=SC1091
+source "${LINUX_SOS_ROOT}/core/engine.sh"
+
+sos_main "$@"
